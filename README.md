@@ -6,9 +6,9 @@
 
 首先确认电脑中是否安装正确版本的python（有些版本没有相关依赖库，需自行修改requirements.txt），
 
-之后访问https://github.com/tesseract-ocr/tesseract/releases下载tesseract-ocr安装包，安装应用，注意要安装至C盘默认位置。
+之后访问https://github.com/tesseract-ocr/tesseract/releases  下载tesseract-ocr安装包，安装应用，注意要安装至C盘默认位置。
 
-访问https://github.com/oschwartz10612/poppler-windows，下载压缩包，并将压缩包内的  poppler—-xxx(版本号)  文件夹移动到C盘program file文件夹 C:\Program Files\，
+访问https://github.com/oschwartz10612/poppler-windows  下载压缩包，并将压缩包内的  poppler—-xxx(版本号)  文件夹移动到C盘program file文件夹 C:\Program Files\，
 
 运行bat初始化，开启bing浏览器访问本地接口http://localhost:8000/
 
