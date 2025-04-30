@@ -4,13 +4,13 @@
 
 使用环境：win10 ，建议python版本：3.12.4
 
-首先确认电脑中是否安装正确版本的python，
+首先确认电脑中是否安装正确版本的python（有些版本没有相关依赖库，需自行修改requirements.txt），
 
-之后安装tesseract-ocr（此压缩包内已有安装包），安装至C盘默认位置。
+  之后访问https://github.com/tesseract-ocr/tesseract/releases下载tesseract-ocr安装包，安装应用，注意要安装至C盘默认位置。
 
-并将文件夹内的poppler移动到C盘program file文件夹 C:\Program Files\，
+    访问https://github.com/oschwartz10612/poppler-windows，下载压缩包，并将压缩包内的  poppler—-xxx(版本号)  文件夹移动到C盘program file文件夹 C:\Program Files\，
 
-运行bat初始化，开启bing浏览器访问本地接口http://localhost:8000/
+      运行bat初始化，开启bing浏览器访问本地接口http://localhost:8000/
 
 
 这样就能使用工具了
