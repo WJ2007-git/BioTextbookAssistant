@@ -6,9 +6,9 @@
 
 首先确认电脑中是否安装正确版本的python（有些版本没有相关依赖库，需自行修改requirements.txt），
 
-之后访问https://github.com/tesseract-ocr/tesseract/releases  下载tesseract-ocr安装包，安装应用，注意要安装至C盘默认位置。
+之后访问https://github.com/tesseract-ocr/tesseract/releases  下载tesseract-ocr安装包，安装应用，注意要安装至C盘默认位置，并将路径添加至环境变量>系统变量中。
 
-访问https://github.com/oschwartz10612/poppler-windows/releases  下载压缩包，并将压缩包内的  poppler—-xxx(版本号)  文件夹移动到C盘program file文件夹 C:\Program Files\，
+访问https://github.com/oschwartz10612/poppler-windows/releases  下载压缩包，并将压缩包内的  poppler—-xxx(版本号)  文件夹移动到C盘program file文件夹 C:\Program Files\，并将路径添加至环境变量>系统变量中。
 
 用记事本打开.env文件，填写Deepseek API码
 
